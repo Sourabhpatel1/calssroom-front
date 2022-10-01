@@ -9,7 +9,7 @@
             mode:'cors',
             referrerPolicy: 'origin',
             headers : {
-                "Access-Control-Allow-Origin": "http://localhost:5173/",
+                "Access-Control-Allow-Origin": "https://calssroom-front-production.up.railway.app/",
                 "Content-Type" : "application/x-www-form-urlencoded"
             },
             body: `username=${username}&password=${password}`
